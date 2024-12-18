@@ -120,3 +120,14 @@ footer {
         font-size: 2em;
     }
 }
+
+/* Hobbies Section */
+section#hobbies ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+section#hobbies ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
