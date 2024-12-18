@@ -131,3 +131,52 @@ section#hobbies ul li {
     margin-bottom: 10px;
     font-size: 1.1em;
 }
+
+/* Projects Section */
+#projects {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#projects h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects li {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin: 10px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#projects li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#projects strong {
+    display: block;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#projects p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.4;
+}
